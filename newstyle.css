@@ -1,0 +1,178 @@
+/* Coolors Exported Palette - coolors.co/383f51-dddbf1-3c4f76-d1beb0-ab9f9d */
+
+/* RGB 
+$color1: rgba(56, 63, 81, 1);
+$color2: rgba(221, 219, 241, 1);
+$color3: rgba(209, 190, 176, 1);
+$color4: rgba(209, 190, 176, 1);
+$color5: rgba(171, 159, 157, 1);
+*/
+
+/********************
+GLOBAL STYLES
+********************/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgba(60, 79, 118, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Parisienne', cursive; */
+    /* font-family: 'Charmonman', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Notable', sans-serif; */
+}
+h1 {
+    font-size: 70px
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+h3 {
+    margin: 0;
+}
+a {
+    display: inline-block;
+    color: #ff4500;
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.btn {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ff4500;
+    color: white;
+}
+
+/********************
+HEADER & FOOTER
+********************/
+/* NAV */
+nav {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header {
+    padding-top: 50px;
+    position: relative;
+}
+header, footer {
+    background-color: rgba(60, 79, 118, 1);
+    color: rgba(209, 190, 176, 1);
+}
+/*  Header */
+.profile-img {
+    border-radius: 50%;
+}
+header h1, header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+}
+.contact-info a {
+    /* background-color: white; */
+    padding: 20px;
+}
+.contact-info a p {
+    margin: 0px;
+}
+
+/********************
+WORK EXPERIENCE
+********************/
+.professional {
+    background-color: rgba(221, 219, 241, 1);
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+p+h3
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+/********************
+EDUCATION
+********************/
+.education {
+    background: linear-gradient(rgba(209, 190, 176, 0.5),rgba(209, 190, 176, 0.5)), url(https://res.cloudinary.com/juntola/image/upload/v1539052488/06_ferrari_monza_sp1-1200x675-c.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+p+h3 {
+    margin-top: 30px;
+}
+
+/********************
+MEDIA QUERIES
+********************/
+@media (min-width: 900px) {
+    .download {
+    
+        position: sticky;
+        top: 5px;
+        z-index: 200;
+        /* right:0;
+        bottom: 0; */
+    }
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+
+}
+@media (max-width: 899px) {
+    
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
